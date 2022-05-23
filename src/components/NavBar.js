@@ -48,7 +48,7 @@ const NavBar = () => {
         <li className="py-3 text-4xl">Contact</li>
       </ul>
 
-      {/* SOCIAL ICONS */}
+      {/* SOCIAL ICONS WITH ANIMATION */}
       <div className="hidden md:flex fixed flex-col top-[40%] left-0">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center pl-4 ml-[-110px] hover:ml-[-10px] duration-500 bg-[#2A9D8F] ">

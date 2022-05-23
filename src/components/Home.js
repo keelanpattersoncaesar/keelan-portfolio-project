@@ -1,5 +1,5 @@
 import React from "react";
-import { MdOutlineArrowRight, MdOutlineArrowDropDown } from "react-icons/md";
+import { RiArrowRightSLine } from "react-icons/ri";
 
 const Home = () => {
   return (
@@ -14,13 +14,16 @@ const Home = () => {
           I'm a Full Stack Developer.
         </h2>
         <p className="text-gray-500 text-2xl py-4 max-w-[700px]">
-          Please have a look around!
+          <p>IT Professional.</p>
+          <p>Veteran.</p>
+          <p>Father.</p>
         </p>
         <div>
           <button className="group text-white border-2 px-3 py-2 flex items-center bg-[#E76F51] hover:bg-[#EE9882] hover:text-black hover:border-[#E76F51]">
-            See my work
+            See My Work
             <span className="group-hover:rotate-90 duration-200">
-              <MdOutlineArrowRight className="ml-1 text-4xl" />
+              {/* <MdOutlineArrowRight className="ml-1 text-4xl" /> */}
+              <RiArrowRightSLine className="ml-1 text-2xl" />
             </span>
           </button>
         </div>
