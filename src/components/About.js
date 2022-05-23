@@ -7,7 +7,7 @@ const About = () => {
         <div className="max-w-[1000px] w-full px-4 grid gap-8">
           <div className="sm:text-center pb-8 pl-4">
             <p className="text-4xl font-bold inline border-b-4 border-red-500">
-              About
+              ABOUT
             </p>
           </div>
           <div></div>
@@ -18,7 +18,7 @@ const About = () => {
             <div>
               <p>
                 I served in the US Navy for 6 years (APR 2013 - APR 2019) and
-                I've recently expanded my skillset to include the wonderful
+                I've recently expanded my skill set to include the wonderful
                 world of web development. After receiving hands-on training at
                 LEARN Academy in San Diego, I've been fully equipped with the
                 tools needed to embrace the role of Full Stack Web Developer. I
@@ -40,7 +40,7 @@ const About = () => {
               </p>
               <p>
                 When I'm not in the mix, I love playing my ukulele, writing
-                poetry, and singing. Please have a look around my profile and
+                poetry, and singing. Please have a look around my portfolio and
                 reach out! I'd love to connect with you.
               </p>
             </div>
