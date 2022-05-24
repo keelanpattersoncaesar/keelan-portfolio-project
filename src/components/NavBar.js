@@ -19,7 +19,7 @@ const NavBar = () => {
         <li>Home</li>
         <li>About</li>
         <li>Skills</li>
-        <li>Projects</li>
+        <li href="#projects">Projects</li>
         <li>Contact</li>
       </ul>
 
@@ -52,13 +52,13 @@ const NavBar = () => {
       <div className="hidden md:flex fixed flex-col top-[40%] left-0">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center pl-4 ml-[-110px] hover:ml-[-10px] duration-500 bg-[#2A9D8F] ">
-          <a className="flex justify-between items-center w-full text-black" href="/">
+          <a className="flex justify-between items-center w-full text-black" href="https://www.linkedin.com/in/keelanpc/">
             LinkedIn <BsLinkedin size={30} />
           </a>
           </li>
 
           <li className="w-[160px] h-[60px] flex justify-between items-center pl-4 ml-[-110px] hover:ml-[-10px] duration-500 bg-[#F4A261]">
-          <a className="flex justify-between items-center w-full text-black" href="/">
+          <a className="flex justify-between items-center w-full text-black" href="https://github.com/keelanpattersoncaesar">
             Github <BsGithub size={30} />
           </a>
           </li>

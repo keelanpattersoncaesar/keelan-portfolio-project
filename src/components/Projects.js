@@ -2,7 +2,9 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div name="projects" className="bg-[#E9C46A] w-full md:h-screen">
+    <>
+    <div id="projects"></div>
+    <div className="bg-[#E9C46A] w-full md:h-screen">
       Projects
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -17,6 +19,7 @@ const Projects = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
