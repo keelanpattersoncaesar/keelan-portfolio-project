@@ -10,7 +10,7 @@ const Contact = () => {
             </div>
             <input className='p-2' type="text" placeholder='Name' name='name' required />
             <input className='my-4 p-2' type="email" placeholder='Email' name='email' required/>
-            <textarea className='p-2' name="message" rows="10" placeholder='Message' required></textarea>
+            <textarea className='p-2' name="message" rows="10" placeholder='Message' minlength="50" maxlength="1000" required></textarea>
             <button className='text-white border-2 bg-[#E76F51] hover:border-[#E76F51] hover:text-black hover:bg-[#EE9882] px-4 py-3 my-8 mx-auto flex items-center'>Connect with me!</button>
         </form>
     </div>
