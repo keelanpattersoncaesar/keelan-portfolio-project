@@ -1,5 +1,6 @@
 import React from "react";
 import { RiArrowRightSLine } from "react-icons/ri";
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -19,12 +20,14 @@ const Home = () => {
           <p>Student.</p>
         </p>
         <div>
+            <Link to="projects" smooth={true} duration={500}>
           <button className="group text-white border-2 px-3 py-2 flex items-center bg-[#E76F51] hover:bg-[#EE9882] hover:text-black hover:border-[#E76F51]">
             See My Work
             <span className="group-hover:rotate-90 duration-200">
               <RiArrowRightSLine className="ml-1 text-2xl" />
             </span>
           </button>
+          </Link>
         </div>
       </div>
     </div>
