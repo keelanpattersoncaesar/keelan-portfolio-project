@@ -1,5 +1,4 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
 import RabbitImage from "../assets/RabbitHoleLogo.png";
 
 const Projects = () => {
@@ -12,6 +11,14 @@ const Projects = () => {
           </p>
           <p className="py-6">Some of the things I've done!</p>
         </div>
+
+
+
+
+
+
+
+
 
         {/* <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           <div
