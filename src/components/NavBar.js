@@ -12,7 +12,7 @@ const NavBar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[5rem] flex justify-between items-center px-3 bg-[#264653] text-white">
+    <div className="fixed w-full h-[5rem] flex justify-between items-center px-3 bg-[#264653] text-white z-30">
       <div>
         <img src={NaleekIcon} alt="Logo" style={{ width: "80px" }} />
       </div>
@@ -53,7 +53,7 @@ const NavBar = () => {
       </ul>
 
       {/* DROPDOWN MENU */}
-      <div onClick={handleClick} className="md:hidden z-20">
+      <div onClick={handleClick} className="md:hidden z-50">
         {/* CONDITIONAL THAT CHANGES ICON ON DROPDOWN MENU */}
         {!nav ? (
           <HiViewList className="cursor-pointer text-2xl" />
@@ -67,7 +67,7 @@ const NavBar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen z-10 flex flex-col bg-[#264653] text-white justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen z-40 flex flex-col bg-[#264653] text-white justify-center items-center"
         }
       >
         <li className="py-3 text-4xl">
