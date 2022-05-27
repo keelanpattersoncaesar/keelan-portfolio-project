@@ -8,8 +8,4 @@
     body {
         @apply font-[Rubik]
     };
-    /* li {
-        @apply px-2;
-        @apply cursor-pointer;
-    }; */
 };
