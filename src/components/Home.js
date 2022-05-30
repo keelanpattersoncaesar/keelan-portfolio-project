@@ -9,7 +9,8 @@ const Home = () => {
     <div name="home" className="w-full h-screen bg-[#E9C46A]">
       {/* revisit padding on this div ALSO maybe add an image here*/}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <div className="flex flex-col h-5 w-full mb-[150px] ml-[600px]">
+        {/* HERO PIC */}
+        <div className="hidden md:flex flex-col h-5 w-full mb-[150px] ml-[600px]">
           <img className="rounded-full" src={Keelan} alt="Keelan" />
         </div>
         <p className="text-black">Hello, my name is...</p>
