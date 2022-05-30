@@ -12,7 +12,7 @@ const About = () => {
           </div>
           <div></div>
           <div className="max-w-[1000px] w-full sm:grid grid-row-2 gap-8 px-4">
-            <div className="sm:text-center text-4xl font-bold">
+            <div className="sm:text-center text-3xl font-semibold">
               <p>HOW DID WE GET HERE?</p>
             </div>
             <div>
@@ -23,13 +23,16 @@ const About = () => {
                 LEARN Academy in San Diego, I've been fully equipped with the
                 tools needed to embrace the role of Full Stack Web Developer. I
                 am well-versed in JavaScript, HTML, CSS, Ruby, Ruby on Rails,
-                React, and PostgreSQL. But that's not all: I also have extensive
-                knowledge of current IT practices, as I've earned 3 different
-                certifications through CompTIA (Cybersecurity Analyst+ CE,
-                Security+ CE, Network+ CE). I'm looking to earn my CompTIA
-                Advanced Security Practitioner (CASP+) in the near future as
-                well.
+                React, and PostgreSQL. 
+                <br />
+                <br />
+                But that's not all: I also have extensive knowledge of current
+                IT practices, as I've earned 3 different certifications through
+                CompTIA (Cybersecurity Analyst+ CE, Security+ CE, Network+ CE).
+                I'm looking to earn my CompTIA Advanced Security Practitioner
+                (CASP+) in the near future as well.
               </p>
+              <br />
               <p>
                 In short, my love for computers and technology knows no bounds.
                 I really enjoy what I do. I have a cemented progression-based
@@ -38,10 +41,13 @@ const About = () => {
                 Additionally, both providing and participating in mentorship
                 activities are essential.
               </p>
+              <br />
               <p>
                 When I'm not in the mix, I love playing my ukulele, writing
                 poetry, and singing. Please have a look around my portfolio and
-                reach out! I'd love to connect with you.
+                reach out!
+                <br />
+                I'd love to connect with you!
               </p>
             </div>
           </div>

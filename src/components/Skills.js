@@ -11,14 +11,14 @@ import ReduxIcon from "../assets/redux.png";
 const Skills = () => {
   return (
     <div name="skills" className="w-full h-screen bg-[#E9C46A]">
-      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center w-full h-full">
+      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center text-center w-full h-full">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-red-500">
             SKILLS
           </p>
           {/* SKILLS ICONS */}
-          <p className="py-4 text-center text-4xl font-bold">
-            I have a working knowledge of:
+          <p className="py-4 text-center text-3xl font-semibold">
+            I HAVE A WORKING KNOWLEDGE OF:
           </p>
         </div>
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-2 text-center py-8 px-8 bg-[#E9C46A]">

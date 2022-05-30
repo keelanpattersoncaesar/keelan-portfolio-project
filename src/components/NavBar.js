@@ -111,7 +111,7 @@ const NavBar = () => {
             smooth={true}
             duration={500}
           >
-            Work
+            Projects
           </Link>
         </li>
         <li className="py-3 text-4xl">
