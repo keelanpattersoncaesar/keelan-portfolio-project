@@ -113,9 +113,6 @@ const Projects = () => {
                   about your future? Made in Ruby. * Sequel in Progress *
                 </CardText>
                 <div className="flex flex-row justify-evenly pt-1">
-                  {/* <Button className="group text-white border-2 px-3 py-2 flex items-center bg-[#E76F51] hover:bg-[#EE9882] hover:text-black hover:border-[#E76F51]">
-                    Demo
-                  </Button> */}
                   <a href="https://github.com/learn-academy-2022-alpha/ruby-challenges/blob/main/fortune-teller.rb">
                     <Button className="group text-white border-2 px-3 py-2 flex items-center bg-[#E76F51] hover:bg-[#EE9882] hover:text-black hover:border-[#E76F51]">
                       Github
