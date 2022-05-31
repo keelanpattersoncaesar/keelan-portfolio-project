@@ -81,7 +81,7 @@ const Projects = () => {
                   need to! Made in Redux.js and Tailwind CSS.
                 </CardText>
                 <div className="flex flex-row justify-evenly pt-1">
-                  <a href="https://github.com/keelanpattersoncaesar/redux-counter-app/tree/keelanbranch/redux-essentials-example">
+                  <a href="https://fruity-counter-keelan.herokuapp.com/">
                     <Button className="group text-white border-2 px-3 py-2 flex items-center bg-[#E76F51] hover:bg-[#EE9882] hover:text-black hover:border-[#E76F51]">
                       Demo
                     </Button>

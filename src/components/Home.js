@@ -10,14 +10,14 @@ const Home = () => {
       {/* revisit padding on this div ALSO maybe add an image here*/}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         {/* HERO PIC */}
-        <div className="hidden md:flex flex-col h-5 w-full mb-[150px] ml-[600px]">
+        <div className="hidden md:grid flex-shrink-0 h-24 object-cover object-right w-3/5 md:ml-[400px]">
           <img className="rounded-full" src={Keelan} alt="Keelan" />
         </div>
         <p className="text-black">Hello, my name is...</p>
-        <h1 className="text-5xl sm:text-7xl font-bold text-[#264653] max-w-[700px]">
+        <h1 className="text-5xl md:text-7xl font-bold text-[#264653] max-w-[700px]">
           Keelan Patterson Caesar Sr.
         </h1>
-        <h2 className="text-3xl sm:text-5xl font-bold">
+        <h2 className="text-3xl text-white md:text-5xl font-bold">
           I'm a Full Stack Developer.
         </h2>
         <p className="text-gray-500 text-xl pt-4 max-w-[700px]">
